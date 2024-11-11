@@ -1,0 +1,129 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #002f6c;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero .hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #f5a623;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.cta-button:hover {
+    background-color: #d88a1a;
+}
+
+/* About Gyatt Section */
+.about-gyatt {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-gyatt h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-gyatt p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Why Choose Gyatt Section */
+.why-choose-gyatt {
+    background-color: #e8f4fa;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.why-choose-gyatt h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.why-choose-gyatt ul {
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+}
+
+.why-choose-gyatt ul li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #002f6c;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

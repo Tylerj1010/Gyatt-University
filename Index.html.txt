@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gyatt University</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Gyatt University Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="#">Admissions</a></li>
+                <li><a href="#">Programs</a></li>
+                <li><a href="#">Campus Life</a></li>
+                <li><a href="#">Research</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Gyatt University</h1>
+            <p>Empowering minds for a brighter future</p>
+            <a href="#" class="cta-button">Apply Now</a>
+            <a href="#" class="cta-button">Learn More</a>
+        </div>
+    </section>
+
+    <!-- About Gyatt Section -->
+    <section class="about-gyatt">
+        <h2>About Gyatt University</h2>
+        <p>Gyatt University is a leading institution dedicated to providing world-class education, cutting-edge research, and a thriving student community.</p>
+    </section>
+
+    <!-- Why Choose Gyatt Section -->
+    <section class="why-choose-gyatt">
+        <h2>Why Choose Gyatt University?</h2>
+        <ul>
+            <li>Academic Excellence</li>
+            <li>State-of-the-art Facilities</li>
+            <li>Diverse Student Body</li>
+            <li>Global Research Opportunities</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Gyatt University. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
